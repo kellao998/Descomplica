@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exemplo de Efeito Scale</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Exeplo de Efeito Scale</h1>
+      <button id="scaleButton">Clique para aumentar</button>
+    </div>
+    <script>
+      const button = document.getElementById('scaleButton');
+      button.addEventListener('click', function () {
+        button.classList.toggle('scale');
+      });
+    </script>
+  </body>
+</html>
